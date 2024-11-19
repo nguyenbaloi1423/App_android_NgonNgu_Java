@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnMonHoc"
+        android:layout_width="310dp"
+        android:layout_height="144dp"
+        android:insetLeft="0dp"
+        android:text="Môn Học"
+        app:icon="@drawable/ic_android" />
+
+    <Button
+        android:id="@+id/btnTinTuc"
+        android:layout_width="298dp"
+        android:layout_height="144dp"
+        android:text="Tin Tức"
+        app:icon="@drawable/ic_android" />
+
+    <Button
+        android:id="@+id/btnBanDo"
+        android:layout_width="302dp"
+        android:layout_height="144dp"
+        android:text="Bản Đồ"
+        app:icon="@drawable/ic_android" />
+
+    <Button
+        android:id="@+id/btnMangXaHoi"
+        android:layout_width="302dp"
+        android:layout_height="144dp"
+        android:background="#FFF9F9"
+        android:text="Mạng Xã Hội"
+        app:icon="@drawable/ic_android" />
+
+</LinearLayout>
